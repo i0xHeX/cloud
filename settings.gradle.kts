@@ -46,7 +46,7 @@ setupIrcModule("cloud-pircbotx")
 // Example Modules
 setupExampleModule("example-bukkit")
 setupExampleModule("example-bungee")
-setupExampleModule("example-jda")
+//setupExampleModule("example-jda")
 setupExampleModule("example-velocity")
 setupExampleModule("example-sponge")
 

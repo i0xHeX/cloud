@@ -23,6 +23,7 @@
 //
 package cloud.commandframework.fabric.internal;
 
+import net.minecraft.commands.arguments.selector.EntitySelector;
 import org.checkerframework.checker.nullness.qual.NonNull;
 
 public interface EntitySelectorAccess {
@@ -40,5 +41,13 @@ public interface EntitySelectorAccess {
      * @param inputString input string
      */
     void inputString(@NonNull String inputString);
+
+    /**
+     * Set whether to bypass permission checks.
+     *
+     * @param shouldBypass whether to bypass checks
+     * @return this {@link EntitySelector}
+     */
+    @NonNull EntitySelector bypassPermissionCheck(boolean shouldBypass);
 
 }

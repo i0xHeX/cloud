@@ -16,6 +16,7 @@ sponge {
     plugin("cloud-example-sponge") {
         loader(PluginLoaders.JAVA_PLAIN)
         displayName("Cloud example Sponge plugin")
+        description("Plugin to demonstrate and test the Sponge implementation of cloud")
         mainClass("cloud.commandframework.examples.sponge.CloudExamplePlugin")
         dependency("spongeapi") {
             loadOrder(PluginDependency.LoadOrder.AFTER)
